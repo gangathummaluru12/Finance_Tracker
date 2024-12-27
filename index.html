@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Finance Tracker</div>
+        <nav>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="button signup-button">Log In</a>
+            <a href="signup.html" class="button signup-button">Sign Up</a>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Take Control of Your Finances</h1>
+            <p>Track your income and expenses effortlessly. Manage your budget, set financial goals, and make smarter decisions for a more secure future.</p>
+            <a href="signup.html" class="button signup-cta">Sign Up Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="makeme.png" alt="Finance Tracker Graphics">
+        </div>
+    </section>
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

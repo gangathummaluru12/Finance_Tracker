@@ -1,0 +1,14 @@
+{
+    "name": "ganga/new1",
+    "description": "project",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ganga\\New1\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
