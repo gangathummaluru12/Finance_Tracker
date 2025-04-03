@@ -1,39 +1,30 @@
-## The hosted cloud link :
-
-https://vxs5416.uta.cloud/
-
-## Login Credentials :
-
-email : test@gmail.com
-password : password
-
-Use the above credentials to login into the portal.
-
-##DB login credentials :
-
-Server   : sql3.freesqldatabase.com
-Username : sql3745157
-Password : pc3JPrpD91
-
-##sources reffered :   
-
-https://webpack.js.org/
-https://babeljs.io/
-https://eslint.org/
-https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps
-https://www.w3schools.com/
-https://github.com/facebook/create-react-app
-https://reactjs.org/
-https://chatgpt.com/
-https://claude.ai/login?returnTo=%2F%3F
+1. Install PHP, java for selenium
+2. Install suitable webdriver for instance for chrome , a compatible version of chromedriver and make sure to put that webdriver excecutable file(.exe) inside the Finance_Tracker folder
+3. install xaamp, composer and laravel (https://devrims.com/blog/how-to-install-laravel-localhost/) (perform till step 4)
+4. copy and paste the code(Finance_Tracker) folder in <XAAMP intall dir>/htdocs/
 
 
+  Access the applicaton using http://localhost:3000        
+	for example:
+		open the any browser and give : localhost/Fianance_Tracker/index.html  - for index page
+
+						localhost/Fianance_Tracker/signup.html - for signup page
+						localhost/Fianance_Tracker/login.html  - for login page
+						localhost/Fianance_Tracker/dashboard.php - for dashboard page (to access to this dashboard, we must login to the page, that means database tables must be created in the system that intended to run the dashboard page, since it is coded in php)
+ 
+To run Tests
+    1. ⁠navigate to Finance_Tracker folder and open terminal with the folder path in it.
+        run according to the test files for example
+	to run test_login.py   - open terminal and run "python test_login.py"
+	to run test_signup.py  - open terminal and run "python test_signup.py"
+	to run test_index.py   - open terminal and run "python test_index.py"
+	to run test_dashboard.py - open terminal and run "python test_dashboard.py"
 
 
-### This project was done by :
+So ,
+Automation test scripts are inside the Financial_Tracker folder
+	test_index.py
+	test_signup.py
+	test_login.py
+	test_dashboard.py
 
-Praveen Kumar Thummala  1002157557
-Ganga Lakshmi Thummaluru  1002163448
-Venkatesha Prasad S 1002115416
-Srestha Somala 1002166735
-Jaswanth Chowdary Sunkara  1002195821
